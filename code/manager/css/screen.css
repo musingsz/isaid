@@ -1,0 +1,60 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+HTML {
+	BACKGROUND: #fff no-repeat 16px 24px
+}
+BODY {
+	BORDER-TOP: #1cacff 6px solid; BACKGROUND: url(gear.jpg) no-repeat right bottom; FONT: 1em/1.5 verdana,Georgia, "Times New Roman", Times, serif; COLOR: #333; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: left;
+}
+HR {
+	DISPLAY: none
+}
+A {
+	COLOR: #1cacff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #1cacff;
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff1c41
+}
+H1 {
+	MARGIN-TOP: 0.2em; FONT-SIZE: 3em; COLOR: #ffbb1c; LINE-HEIGHT: 1.2; WHITE-SPACE: nowrap
+}
+H1 .apos {
+	COLOR: #1cacff
+}
+H2 {
+	MARGIN-TOP: 1.5em; FONT-WEIGHT: normal; FONT-SIZE: 1.5em; COLOR: #0099ff; 
+}
+h3 {MARGIN-TOP: 3.5em;color:#0099FF; font-size:14px;}
+.content {
+	BACKGROUND: url(bgman.gif) no-repeat 0px 96px; MARGIN: 24px auto; WIDTH: 42em; TEXT-ALIGN: left
+}
+#container {
+	text-align: left;MARGIN: 14px auto;	min-height: 100%; position: relative;overflow:auto; _height:1%;
+}
+.login {
+	min-height: 100%; position: relative;  text-align: left; margin: 0 auto;font: 14px; padding: 20px 0 90px 0;clear:both;
+}
+.summary {
+	FONT-SIZE: 1.5em; TEXT-ALIGN: right
+}
+
+#left {float: left;  padding: 0 0 10px 45px;	width: 180px;
+}
+
+#right {float: left; padding: 0 0 10px 10px;
+}
+.footer {
+	PADDING-RIGHT: 1em; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 2em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; COLOR: #999; PADDING-TOP: 1em; FONT-STYLE: italic; TEXT-ALIGN: right
+/*position: relative;	margin: -4em auto 0 auto; widddth: 600px; clear:both;text-align:center;*/
+
+}
+.drag {
+	CURSOR: move
+}

@@ -1,0 +1,16 @@
+name: isaid
+version: 9
+#cron:
+#    - description: cron test
+#      url: index.php
+#      schedule: every 43 mins
+#      timezone: Beijing
+handle:
+  - rewrite: if(path ~ "^i\.said$") goto "cpost.php"
+  - rewrite: if(path ~ "^index(\d*)$") goto "index.php?p=$1"
+  - rewrite: if(path ~ "^([A-Za-z0-9_\-]+)\.html$") goto "article.php?id=$1"
+  - rewrite: if(path ~ "^([0-9]+)_([0-9]+)\.archive$") goto "archives.php?y=$1&m=$2"
+  - rewrite: if(path ~ "^(feed|rss)(2?)((/|(\.xml))?)$") goto "rss.php?v=$2"
+  - rewrite: if(path ~ "^tag/(.+?)((/(\d*))?)$") goto "tag.php?tag=$1&p=$2"
+  - rewrite: if(path ~ "^m/([A-Za-z0-9_\-]+)(/?)$") goto "m/topic.php?id=$1"
+  - rewrite: if(path ~ "^sort/(.+?)((/(\d*))?)$") goto "sort.php?id=$1&p=$2"
